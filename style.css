@@ -26,14 +26,48 @@ header h1 {
     text-align: center;
 }
 
-li {
-    display: inline-block;
-    margin: 0;
-    padding: 3px;
+nav {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+    margin 1em 0;
+    background-color: white; 
 }
 
-nav {
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-radius: 0;
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 2px;
+}
+
+/* front-page article */
+main h2, h5 {
+    font-family: 'Roboto Slab';
+}
+
+main img {
+    width: 100%;
+}
+
+/* more articles */
+.more-articles {
+    border-top: 1px solid #eee;
+    margin-top: 1.5em;
+    text-align: left;
+}
+
+.more-articles section {
+    display: inline-block;
+    width: 40%;
+    margin: 0 1em;
+}
+
+.more-articles img {
+    width: 100%;
+}
+
+.more-articles h4 {
+    font-family: 'Roboto Slab';
+    text-align: center;
 }
