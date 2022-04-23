@@ -54,6 +54,7 @@ main img {
 
 /* more articles */
 .more-articles {
+    position: static;
     border-top: 1px solid #eee;
     margin-top: 1.5em;
     text-align: left;
