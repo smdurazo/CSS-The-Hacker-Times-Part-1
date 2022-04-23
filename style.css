@@ -30,8 +30,10 @@ nav {
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
     padding: 5px 0;
-    margin 1em 0;
-    background-color: white; 
+    margin: 1em 0;
+    background-color: white;
+    position: sticky;
+    top: 0px;
 }
 
 li {
@@ -59,7 +61,7 @@ main img {
 
 .more-articles section {
     display: inline-block;
-    width: 40%;
+    width: 44%;
     margin: 0 1em;
 }
 
